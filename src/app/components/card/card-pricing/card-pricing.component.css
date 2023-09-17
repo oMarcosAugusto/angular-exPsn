@@ -1,0 +1,34 @@
+.card-pricing_container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(250, 235, 215, 0.932);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-pricing_title {
+    margin-bottom: 3px;
+}
+
+.card-pricing_value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-pricing_value_console {
+    display: flex;
+}
+
+.card-pricing_value_console > span {
+    font-weight: bolder;
+    color: rgba(0, 255, 255, 0.952);
+    margin-right: 10px;
+}
