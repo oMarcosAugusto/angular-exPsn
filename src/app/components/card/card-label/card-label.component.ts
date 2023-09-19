@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { dataFake } from '../../../data/data.Fake'
 
 @Component({
   selector: 'app-card-label',
