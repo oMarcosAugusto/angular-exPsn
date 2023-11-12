@@ -1,23 +1,23 @@
 .card_container {
-    position: relative;
-    border: 3px solid #3e4357;
-    border-radius: 10px;
-    width: 350px;
-    height: 500px;
+	position: relative;
+	border: 3px solid #3e4357;
+	border-radius: 10px;
+	width: 350px;
+	height: 500px;
 
-    display: flex;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+	display: flex;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .card_img {
-    min-width: 100%;
-    min-height: 100%;
-    transition: transform .8s;
+	min-width: 100%;
+	min-height: 100%;
+	transition: transform 0.8s;
 }
 
 .card_img:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
