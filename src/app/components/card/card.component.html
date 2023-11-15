@@ -1,7 +1,11 @@
-<a href="#" class="card_container">
-    <img class="card_img" [src]=[gameCover] alt="">
+<a href={{cardLink}} class="card_container" target="_blank" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()">
 
-    <app-card-label gameLabel="{{gameLabel}}">
+    <img class="card_img" [src]="gameCover" alt="" *ngIf="!isHovered">
+
+    <video class="ca" [src]="trailerLink" alt="" *ngIf="isHovered" autoplay></video>
+
+    <app-card-label gameLabel=" {{gameLabel}}">
     </app-card-label>
     <app-card-pricing gameType="{{gameType}}" gamePrice="{{gamePrice}}"></app-card-pricing>
+
 </a>

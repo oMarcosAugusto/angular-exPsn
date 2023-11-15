@@ -12,4 +12,5 @@ body {
 		rgba(9, 9, 121, 1) 35%, rgba(9, 9, 121, 1) 100%;
 	background-image: url("./assets/psn-backgroud.webp");
 	background-size: cover;
+	background-repeat: no-repeat;
 }

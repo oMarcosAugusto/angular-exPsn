@@ -11,20 +11,17 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
 import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    CardComponent,
-    MenuBarComponent,
-    CardLabelComponent,
-    CardPricingComponent,
-    FooterComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HomeComponent,
+		CardComponent,
+		MenuBarComponent,
+		CardLabelComponent,
+		CardPricingComponent,
+		FooterComponent,
+	],
+	imports: [BrowserModule, AppRoutingModule],
+	providers: [],
+	bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

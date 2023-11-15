@@ -4,7 +4,6 @@
 	border-radius: 10px;
 	width: 350px;
 	height: 500px;
-
 	display: flex;
 	overflow: hidden;
 	margin-top: 10px;
@@ -15,9 +14,19 @@
 .card_img {
 	min-width: 100%;
 	min-height: 100%;
-	transition: transform 0.8s;
+	transition: opacity 0.9s;
 }
 
-.card_img:hover {
-	transform: scale(1.1);
+video {
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.card_container:hover .card_img {
+	opacity: 0;
+}
+
+.card_container:hover video {
+	display: block;
 }
